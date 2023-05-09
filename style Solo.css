@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 400;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+}
+
+#logo20min {
+    width: 33%;
+    height: 100%;
+}
+
+#clairevallee {
+    width: 33%;
+    height: 100%;
+}
+
+#articleheader {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 33%;
+}
+
+#imaget20min {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#dateetsite {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
